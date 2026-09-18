@@ -10,8 +10,8 @@ int main() {
     srand(time(0));
     number = rand() % 100 + 1;
 
-    cout << "===== Number Guessing Game =====" << endl;
-    cout << "I have selected a number between 1 and 100." << endl;
+    cout << " Number Guessing Game" << endl;
+    cout << "selected a number between 1 and 100." << endl;
 
     while (true) {
         cout << "Enter your guess: ";
@@ -26,7 +26,7 @@ int main() {
         }
         else {
             cout << "Congratulations! You guessed the number!" << endl;
-            cout << "Number of attempts: " << attempts << endl;
+            cout << "Number of attempts:" << attempts << endl;
             break;
         }
     }
