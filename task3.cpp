@@ -14,7 +14,7 @@ private:
 public:
 
     void bookRoom() {
-        cout << "\nEnter Room Number: ";
+        cout << "\n Enter Room Number: ";
         cin >> roomNumber;
 
         cin.ignore();
